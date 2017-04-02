@@ -8,8 +8,8 @@ With this option, you can simulate blocking your friend computer:<br>
 <img src="http://imgur.com/YAvcCrQ.gif">
 
 <h3>2- Shutdown timer</h3>
-With this option, you can shutdown the computer in X time<br>
+With this option, you can shutdown the computer in X time.<br>
 
 <h3>3- Scream joke timer</h3>
-With this option, in X time the computer up volume to 100% + displays an picture on screen (random of 3 pictures):<br>
+With this option, in X time the computer up volume to 100% for then produce death sound + displays an image on the screen (random of 3 pictures):<br>
 <img src="http://imgur.com/CURNYoL.gif">
