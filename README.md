@@ -5,7 +5,7 @@ Do you want to make a joke on your friend?, with this app is easy :)<br>
 # OPTIONS
 <h3>1- Block system joke:</h3>
 With this option, you can simulate blocking your friend computer:<br>
-![](http://imgur.com/YAvcCrQ.gif)
+<img src="http://imgur.com/YAvcCrQ.gif">
 
 <h3>2- Shutdown timer</h3>
 With this option, you can shutdown the computer in X time<br>
