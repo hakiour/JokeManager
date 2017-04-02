@@ -1,6 +1,5 @@
 # JokeManager
-Do you want to make a joke on your friend?, with this app is easy :)
-
+Do you want to make a joke on your friend?, with this app is easy :)<br>
 ![alt tag](http://imgur.com/Dgqgg90.png)
 
 # OPTIONS
@@ -8,9 +7,9 @@ Do you want to make a joke on your friend?, with this app is easy :)
 With this option, you can simulate blocking your friend computer:
 ![](http://imgur.com/YAvcCrQ.gif)
 
-2- Shutdown timer
+<h3>2- Shutdown timer</h3>
 With this option, you can shutdown the computer in X time
 
-3- Scream joke timer
+<h3>3- Scream joke timer</h3>
 With this option, in X time the computer up volume to 100% + draw a picture on screen (random of 3 pictures):
 ![](http://imgur.com/CURNYoL.gif)
