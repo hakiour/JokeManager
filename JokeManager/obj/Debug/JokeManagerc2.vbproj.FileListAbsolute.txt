@@ -1,0 +1,16 @@
+Z:\JokeManagerc2\JokeManagerc2\bin\Debug\JokeManagerc2.exe.config
+Z:\JokeManagerc2\JokeManagerc2\bin\Debug\JokeManagerc2.exe
+Z:\JokeManagerc2\JokeManagerc2\bin\Debug\JokeManagerc2.pdb
+Z:\JokeManagerc2\JokeManagerc2\bin\Debug\JokeManagerc2.xml
+Z:\JokeManagerc2\JokeManagerc2\obj\Debug\JokeManagerc2.JokeManager.resources
+Z:\JokeManagerc2\JokeManagerc2\obj\Debug\JokeManagerc2.Resources.resources
+Z:\JokeManagerc2\JokeManagerc2\obj\Debug\JokeManagerc2.vbproj.GenerateResource.Cache
+Z:\JokeManagerc2\JokeManagerc2\obj\Debug\JokeManagerc2.exe
+Z:\JokeManagerc2\JokeManagerc2\obj\Debug\JokeManagerc2.xml
+Z:\JokeManagerc2\JokeManagerc2\obj\Debug\JokeManagerc2.pdb
+Z:\JokeManagerc2\JokeManagerc2\obj\Debug\JokeManagerc2.g.resources
+Z:\JokeManagerc2\JokeManagerc2\obj\Debug\Interop.WMPLib.dll
+Z:\JokeManagerc2\JokeManagerc2\obj\Debug\AxInterop.WMPLib.dll
+Z:\JokeManagerc2\JokeManagerc2\obj\Debug\JokeManagerc2.vbproj.ResolveComReference.cache
+Z:\JokeManagerc2\JokeManagerc2\bin\Debug\Interop.WMPLib.dll
+Z:\JokeManagerc2\JokeManagerc2\bin\Debug\AxInterop.WMPLib.dll
