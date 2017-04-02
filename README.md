@@ -11,4 +11,4 @@ With this option, you can shutdown the computer in X time
 
 3- Scream joke timer
 With this option, in X time the computer up volume to 100% + draw a picture on screen (random of 3 pictures)
-![](http://imgur.com/ocowBDL.gif)
+![](http://i.imgur.com/ocowBDL.gif)
