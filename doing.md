@@ -1,4 +1,4 @@
-# GT-MP SYSTEM ADMINISTRATION
+# GT-MP SYSTEM ADMINISTRATOR
 
 Administration program for stop/start/restart your gt-mp server, save in-real-time logs, kill screen sessions, etc.
 
@@ -9,7 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 * GNU/Linux System (tested on Debian Stretch & Ubuntu Server 16.04.3 LTS)
 
-* Functional GT-MP Server
+* Functional [GT-MP Server](https://gt-mp.net/download/)
 
 * [Screen](https://www.gnu.org/software/screen/manual/screen.html) - As window manager
 ```
