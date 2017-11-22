@@ -12,6 +12,8 @@ These instructions will get you a copy of the project up and running on your loc
 * Functional [GT-MP Server](https://gt-mp.net/download/)
 
 * [Screen](https://www.gnu.org/software/screen/manual/screen.html) - As window manager
+
+* php > 5.3
 ```
 Give examples
 ```
