@@ -14,13 +14,12 @@ These instructions will get you a copy of the project up and running on your loc
 * [Screen](https://www.gnu.org/software/screen/manual/screen.html) - As window manager
 
 * php > 5.3
-```
-Give examples
-```
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+Fir we need to download the script on our server, you can do it trhought sftp, git, etc. We do it with the wget command
+
+`wget https://github.com/hakiour/JokeManager/archive/master.zip`
 
 Say what the step will be
 
