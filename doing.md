@@ -17,7 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-Fir we need to download the script on our server, you can do it trhought sftp, git, etc. We do it with the wget command
+Firt we need to download the script on our server, you can do it throught sftp, git, etc. We do it with the wget command
 
 `wget https://github.com/hakiour/JokeManager/archive/master.zip`
 
