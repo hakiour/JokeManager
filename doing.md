@@ -15,25 +15,32 @@ These instructions will get you a copy of the project up and running on your loc
 
 * php > 5.3
 
+#### Optionals:
+ * wget
+ * unzip
 ### Installing
 
-Firt we need to download the script on our server, you can do it throught sftp, git, etc. I do it with the wget command
+First we need to download the script on our server, you can do it throught sftp, git, etc. I do it with the wget command
 
 ```
 wget https://github.com/hakiour/JokeManager/archive/master.zip
 ```
 
-Say what the step will be
-
-
-
-And repeat
+Then, if you download the script with wget, we have a .zip file, unzip it with
 
 ```
-until finished
+unzip master.zip
 ```
+Now we add the permisions on the script
 
-End with an example of getting some data out of the system or using it for a little demo
+```
+chmod +x gtmp
+```
+If we use `ls`
+
+<img src="https://i.imgur.com/ljH0vI5.png">
+
+we can see that we have the executable permision on the gtmp script.
 
 ## Running the tests
 
