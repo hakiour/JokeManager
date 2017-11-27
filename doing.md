@@ -36,15 +36,29 @@ Now we add the permisions on the script
 ```
 chmod +x gtmp
 ```
-If we use `ls`
+If we use `ls -l`:
 
 <img src="https://i.imgur.com/QEV6KWz.png">
 
 we can see that we have the executable permision on the gtmp script.
 
-## Running the tests
+## Configuration file
+The configuration file is were the global settings for this script are setted.
 
-Explain how to run the automated tests for this system
+## Parameters
+* *<b>$path</b> = /home/hamza/gt-mp/* : The path of the executable server file, in this case, under the folder `/home/hamza/gt-mp/` I have the `GrandTheftMultiplayer.Server.exe` executable file.
+
+* *<b>$executable</b> = GrandTheftMultiplayer.Server.exe* : The name of the executable server file, by default is `GrandTheftMultiplayer.Server.exe`, but if you change the name of the executable file, need to reflect it on this parameter.
+
+* *<b>$instance_name</b> = gtav* : The name of the [screen](https://www.gnu.org/software/screen/manual/screen.html) session, you can write whatever you want (no spaces), by default is `gtav`.
+
+
+### Generating a new gtmp_config file
+
+If we don't have the gtmp_config file, we can run the script `./gtmp start` and the script automatically set up a new gtmp_config file:
+<img src="https://i.imgur.com/4xAYN21.png">
+
+But if we have one gtmp_config file and wanna generate a new one, call the script with the newconf parameter (`./gtmp newconf`)
 
 ### Break down into end to end tests
 
