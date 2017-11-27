@@ -4,7 +4,7 @@ Administration program for stop/start/restart your gt-mp server, save in-real-ti
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 * GNU/Linux System (tested on Debian Stretch & Ubuntu Server 16.04.3 LTS)
@@ -45,13 +45,20 @@ we can see that we have the executable permision on the gtmp script.
 ## Configuration file
 The configuration file is were the global settings for this script are setted.
 
-## Parameters
+### Parameters
 * *<b>$path</b> = /home/hamza/gt-mp/* : The path of the executable server file, in this case, under the folder `/home/hamza/gt-mp/` I have the `GrandTheftMultiplayer.Server.exe` executable file.
 
 * *<b>$executable</b> = GrandTheftMultiplayer.Server.exe* : The name of the executable server file, by default is `GrandTheftMultiplayer.Server.exe`, but if you change the name of the executable file, need to reflect it on this parameter.
 
 * *<b>$instance_name</b> = gtav* : The name of the [screen](https://www.gnu.org/software/screen/manual/screen.html) session, you can write whatever you want (no spaces), by default is `gtav`.
 
+* *<b>$savelog</b> = y* : If it's true (`y`), when you start the server automatically is generater a `gtmp-server.log` file where it's saved all the commands (and the ouputs) generates on the [screen](https://www.gnu.org/software/screen/manual/screen.html) session. Possible answers: yes (`y`) or no (`n`), default value is `y`.
+
+   * Example of how the log looks like by default: <img src="https://i.imgur.com/ywRTAIh.png">
+  
+$savelog = y                                                                        
+$timestampOnLog = n                                                                 
+$alwaysSafeStart = y  
 
 ### Generating a new gtmp_config file
 
