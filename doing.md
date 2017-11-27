@@ -58,7 +58,7 @@ The configuration file is were the global settings for this script are setted.
    
 * *<b>$timestampOnLog</b> = n* : Complement of `$savelog` paramenter, when is true (`y`), automatically print the timestamp on the log file. Possible answers: yes (`y`) or no (`n`), default value is `n`.
 
-   * Example of how the log looks like by the `$timestampOnLog` on : <img src="https://i.imgur.com/KzSqfup.png">
+   * Example of how the log looks like with the `$timestampOnLog` on : <img src="https://i.imgur.com/KzSqfup.png">
    
 * *<b>$alwaysSafeStart</b> = y* : If it's true (`y`), before you start the server, kill the old [screen](https://www.gnu.org/software/screen/manual/screen.html) session (if there's more than one session, kill them all, that's why is safe), after killing the [screen](https://www.gnu.org/software/screen/manual/screen.html) sessions (or if there is no one), create a new one. It's the same when you stop the server, after stopping it, kill the [screen](https://www.gnu.org/software/screen/manual/screen.html) sessions. It's ideal if you want a clean start/stop.
 
