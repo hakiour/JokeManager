@@ -38,7 +38,7 @@ chmod +x gtmp
 ```
 If we use `ls`
 
-<img src="https://i.imgur.com/ljH0vI5.png">
+<img src="https://i.imgur.com/QEV6KWz.png">
 
 we can see that we have the executable permision on the gtmp script.
 
