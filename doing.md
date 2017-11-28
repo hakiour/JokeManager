@@ -67,14 +67,19 @@ The configuration file is were the global settings for this script are setted.
 If we don't have the gtmp_config file, we can run the script `./gtmp start` and the script automatically set up a new gtmp_config file:
 <img src="https://i.imgur.com/4xAYN21.png">
 
-But if we have one gtmp_config file and wanna generate a new one, call the script with the newconf parameter (`./gtmp newconf`)
+But if we have one gtmp_config file and wanna generate a new one, call the script with the newconf parameter (`./gtmp newconf`). The newconf save your old gtmp_config file as gtmp_config.old
 
-### Break down into end to end tests
+## Comands
 
-Explain what these tests test and why
+### Syntax
+The syntaxis is: `./gtmp` + [Parameter1] + [OptionalParameter2], Ex: `gtmp start -f`
+
+### Parameters
+  * `start`: With this parameter we order the server to start, if we don't have the `$alwaysSafeStart`, we need to have a [screen](https://www.gnu.org/software/screen/manual/screen.html) session running (with the correct `$instance_name`), if we don't have a [screen](https://www.gnu.org/software/screen/manual/screen.html) session running, we can call the parameter `-f` (force).
+     * `-f` (force):  with the start command, this create a [screen](https://www.gnu.org/software/screen/manual/screen.html) session if there is no one and then start the server, if there is some screen session running, the program kill them and then execute a new one.
 
 ```
-Give an example
+./gtmp start -f
 ```
 
 ### And coding style tests
