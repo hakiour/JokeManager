@@ -77,10 +77,15 @@ The syntaxis is: `./gtmp` + [Parameter1] + [OptionalParameter2], Ex: `gtmp start
 ### Parameters
   * `start`: With this parameter we order the server to start, if we don't have the `$alwaysSafeStart`, we need to have a [screen](https://www.gnu.org/software/screen/manual/screen.html) session running (with the correct `$instance_name`), if we don't have a [screen](https://www.gnu.org/software/screen/manual/screen.html) session running, we can call the parameter `-f` (force).
      * `-f` (force):  with the start command, this create a [screen](https://www.gnu.org/software/screen/manual/screen.html) session if there is no one and then start the server, if there is some screen session running, the program kill them and then execute a new one.
-
+      
+*Example*:
 ```
 ./gtmp start -f
 ```
+*Live example*:
+
+ Here you can see how there is no [screen](https://www.gnu.org/software/screen/manual/screen.html) session running, and because that the command fail the execution of the server, if we call the parameter `-f`orce, we force the creation of a screen session:
+ <img src="https://i.imgur.com/zZqAqoR.gif">
 
 ### And coding style tests
 
