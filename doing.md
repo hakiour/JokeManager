@@ -43,7 +43,7 @@ If we use `ls -l`:
 we can see that we have the executable permision on the gtmp script.
 
 ## Configuration file
-The configuration file is were the global settings for this script are setted.
+The configuration file is were the global settings for this script are setted. By default the file name is `gtmp_config`, saved on the same folder as the gtmp script.
 
 ### Parameters
 * *<b>$path</b> = /home/hamza/gt-mp/* : The path of the executable server file, in this case, under the folder `/home/hamza/gt-mp/` I have the `GrandTheftMultiplayer.Server.exe` executable file.
@@ -74,7 +74,7 @@ But if we have one gtmp_config file and wanna generate a new one, call the scrip
 ### Syntax
 The syntaxis is: `./gtmp` + [Parameter1] + [OptionalParameter2], Ex: `gtmp start -f`
 
-### Parameters
+## Parameters
   * `start`: With this parameter we order the server to start, if we don't have the `$alwaysSafeStart`, we need to have a [screen](https://www.gnu.org/software/screen/manual/screen.html) session running (with the correct `$instance_name`), if we don't have a [screen](https://www.gnu.org/software/screen/manual/screen.html) session running, we can call the parameter `-f` (force).
      * `-f` (force):  with the start command, this create a [screen](https://www.gnu.org/software/screen/manual/screen.html) session if there is no one, then start the server, if there is some screen session running, the program kill them (only de GT-MP screens) and then execute a new one.
       
@@ -94,43 +94,26 @@ The syntaxis is: `./gtmp` + [Parameter1] + [OptionalParameter2], Ex: `gtmp start
 ```
 ./gtmp stop -f
 ```
-### And coding style tests
 
-Explain what these tests test and why
-
+ * `restart`: With this parameter we order the server to stop, and then start again. This command execute a `./gtmp start` and `./gtmp stop`, that means the parameters on `gtmp_config` (`$alwaysSafeStart`, `$alwaysSafeStop`, etc. affects this command). We can call the parameter `-f`orce for emulate `$alwaysSafeStart` and `$alwaysSafeStop`.
+      
+*Example*:
 ```
-Give an example
+./gtmp restart -f
 ```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Php](http://php.net)
 
 ## Possible errors and how to solve it
 
 ['Cannot open your terminal '/dev/pts/3' - please check.'](https://makandracards.com/makandra/2533-solve-screen-error-cannot-open-your-terminal-dev-pts-0-please-check) - description: This error occurs when you wanna access to the screen session with an user who don't log in the system correctly, what means he don't have his own terminal session (run `script /dev/null` to own the shell).
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
 * **Hamza Akiour** - *Developer, Sysadmin & tecLover* - [Hamza Akiour](https://hamza.es)
 
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
