@@ -107,7 +107,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Possible errors and how to solve it
 
-['Cannot open your terminal '/dev/pts/3' - please check.'](https://makandracards.com/makandra/2533-solve-screen-error-cannot-open-your-terminal-dev-pts-0-please-check)
+['Cannot open your terminal '/dev/pts/3' - please check.'](https://makandracards.com/makandra/2533-solve-screen-error-cannot-open-your-terminal-dev-pts-0-please-check) - description: This error occurs when you wanna access to the screen session with an user who don't log in the system correctly, what means he don't have his own terminal session (run `script /dev/null` to own the shell).
 
 ## Versioning
 
