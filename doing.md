@@ -116,4 +116,4 @@ The syntaxis is: `./gtmp` + [Parameter1] + [OptionalParameter2], Ex: `gtmp start
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU (General Public License) - see the [LICENSE](LICENSE) file for details
