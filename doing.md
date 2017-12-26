@@ -76,7 +76,7 @@ The syntaxis is: `./gtmp` + [Parameter1] + [OptionalParameter2], Ex: `gtmp start
 
 ### Parameters
   * `start`: With this parameter we order the server to start, if we don't have the `$alwaysSafeStart`, we need to have a [screen](https://www.gnu.org/software/screen/manual/screen.html) session running (with the correct `$instance_name`), if we don't have a [screen](https://www.gnu.org/software/screen/manual/screen.html) session running, we can call the parameter `-f` (force).
-     * `-f` (force):  with the start command, this create a [screen](https://www.gnu.org/software/screen/manual/screen.html) session if there is no one and then start the server, if there is some screen session running, the program kill them and then execute a new one.
+     * `-f` (force):  with the start command, this create a [screen](https://www.gnu.org/software/screen/manual/screen.html) session if there is no one, then start the server, if there is some screen session running, the program kill them (only de GT-MP screens) and then execute a new one.
       
 *Example*:
 ```
@@ -86,7 +86,14 @@ The syntaxis is: `./gtmp` + [Parameter1] + [OptionalParameter2], Ex: `gtmp start
 
  Here you can see how there is no [screen](https://www.gnu.org/software/screen/manual/screen.html) session running, and because that the command fail the execution of the server, if we call the parameter `-f`orce, we force the creation of a screen session:
  <img src="https://i.imgur.com/zZqAqoR.gif">
-
+ 
+  * `stop`: With this parameter we order the server to stop, if we don't have the `$alwaysSafeStop`, the program don't kill screen session (what means it still online in the background), we can call the parameter `-f`orce for kill the screen sessions.
+     * `-f` (force):  with the stop command, kill the screen GT-MP screen sesions after shutting down the server (it's the same as `$alwaysSafeStop`).
+      
+*Example*:
+```
+./gtmp stop -f
+```
 ### And coding style tests
 
 Explain what these tests test and why
